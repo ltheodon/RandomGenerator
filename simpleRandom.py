@@ -3,13 +3,13 @@ import timeit
 start = timeit.default_timer()
 
 
-def simpleRandom(seed=1,c=29):
+def simpleRandom(seed=1,c=12689):
 	# Definition des constantes
 	# a est un grand nombre
 	# b est un grand nombre premier
 	# c est également un nombre premier
 	a = 10000
-	b = 12689
+	b = 23459
 	return (a*seed+b)%c
 
 
